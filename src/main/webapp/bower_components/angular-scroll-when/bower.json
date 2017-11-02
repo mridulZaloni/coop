@@ -1,0 +1,29 @@
+{
+  "name": "angular-scroll-when",
+  "version": "1.0.4",
+  "authors": [
+    "Brandon Barker <skinty@gmail.com>"
+  ],
+  "description": "An AngularJS directive to dynamically scroll to any element on your page",
+  "main": "dist/angular-scroll-when.min.js",
+  "keywords": [
+    "scroll",
+    "angular",
+    "scroll when"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular": "latest",
+    "angular-mocks": "latest",
+    "jquery": "latest"
+  }
+}

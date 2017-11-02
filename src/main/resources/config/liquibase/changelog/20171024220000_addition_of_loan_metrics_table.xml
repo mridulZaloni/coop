@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="20171024220000" author="mridul">
+        <createTable tableName="T_LOAN_METRICS">
+            <column name="loan_id" type="int" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"></constraints>
+            </column>
+            <column name="loan_type" type="varchar(30)">
+                <constraints unique="true" nullable="false"></constraints>
+            </column>
+            <column name="duration" type="int">
+                <constraints nullable="false"></constraints>
+            </column>
+            <column name="interest_rate" type="float">
+                <constraints nullable="false"></constraints>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

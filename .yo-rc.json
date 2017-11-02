@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "coop",
+    "packageName": "com.sbi.coop",
+    "packageFolder": "com/sbi/coop",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "useCompass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "rememberMeKey": "627a67c536dc768e9fce78b9606d6c9aa3600184"
+  }
+}
